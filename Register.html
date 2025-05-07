@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | AlterVerse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: rgb(216, 206, 223);
+      color: #e0e0e0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .register-container {
+      max-width: 500px;
+      margin: auto;
+      margin-top: 50px;
+      background-color: #1c1c1c;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #444;
+    }
+
+    .form-label {
+      color: #d1dedd;
+    }
+
+    .form-control {
+      background-color: #595757;
+      color: #fff;
+      border: 1px solid #555;
+    }
+
+    .form-control:focus {
+      border-color: #00fff7;
+     
+    }
+
+    .btn-register {
+      background-color: #00fff7;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .btn-register:hover {
+      background-color: #08423f;
+    }
+    .btn-register {
+      background-color: #00fff7;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .form-check-label {
+      color: #ccc;
+    }
+
+    h2 {
+      color: #bdc2c2;
+    }
+    .btn-login {
+      background-color: #00fff7;
+      color: #000;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align:center ;
+      margin-left:800px;
+    }
+    .btn-login:hover {
+      background-color: #0a3735;
+    }
+    footer a {
+  color: #f8f9fa; 
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #5b78a4 !important; 
+  text-decoration: underline;
+}
+.nav-link:hover {
+    color: #e1e3e7; 
+    text-decoration: none;
+  }
+  .login 
+  { margin-left: 20px;
+    font:bold;
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AlterVerse..</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Register.html">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Help.html">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="register-container">
+    <h2 class="text-center mb-4">🔐 Create Your AlterVerse Account</h2>
+    <form>
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Email"  autocapitalize="off">
+      </div>
+
+      <div class="mb-3">
+        <label for="pass" class="form-label">Password</label>
+        <input type="password" class="form-control" autocomplete="new-password" autocomplete="off" id="pass" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Gender</label><br/>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+          <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+          <label class="form-check-label" for="female">Female</label>
+        </div>
+        <div class="mt-2 ">
+          <a href="Login.html" class=" text-decoration-underline ">login</a>
+          <span class="login"> Have account?</span>
+          
+        </div>
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="terms" required>
+        <label class="form-check-label" for="terms">I agree to the terms & conditions</label>
+      </div>
+
+      <button type="submit" class="btn btn-register w-100">Register</button>
+    </form>
+  </div>
+
+ 
+  <footer class="bg-dark text-light pt-4 pb-2 mt-5">
+    <div class="container">
+      <div class="row">
+  
+    
+        <div class="col-md-4">
+          <h5>Alterverse</h5>
+          <p>Explore the next dimension of reality. Join us to experience a new universe of interaction.</p>
+        </div>
+  
+   
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="Aboutus.html" class="text-light text-decoration-none">About Us</a></li>
+            <li><a href="Register.html" class="text-light text-decoration-none">Register</a></li>
+            <li><a href="Login.html" class="text-light text-decoration-none">Login</a></li>
+            <li><a href="contactus.html" class="text-light text-decoration-none">Contact</a></li>
+            <li><a href="Help.html" class="text-light text-decoration-none">Help</a></li>
+          </ul>
+        </div>
+  
+      
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>Email: support@alterverse.com</p>
+          <p>Phone:  9876542233</p>
+          <p>Location: Virtual Place, Alterverse</p>
+        </div>
+      </div>
+  
+      <hr class="border-light" />
+      <div class="text-center">
+        <p class="mb-0">&copy; 2025 Alterverse. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+</body>
+</html>
